@@ -2,7 +2,7 @@
 
 > Spatiotemporal mathematical modeling and machine learning forecasting of the Antarctic sea ice edge across **360° longitudinal sectors** (1970–1981 daily satellite observations) using **3-Harmonic Fourier Regression (OLS)** and **Random Forest**.
 
-[![Presentation PDF](https://img.shields.io/badge/Presentation-Full_Slide_Deck_(PDF)-red?style=for-the-badge&logo=adobeacrobatreader)](./Antarctic_Ice_Edge_Modeling_Presentation.pdf)
+[![Presentation PDF](https://img.shields.io/badge/Presentation-Full_Slide_Deck_(PDF)-red?style=for-the-badge&logo=adobeacrobatreader)](./raport-modelowanie_krawedzi_lodu_antarktycznego.pdf)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-OLS_%26_Random_Forest-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-Vectorized_Math-013243?style=for-the-badge&logo=numpy&logoColor=white)
@@ -19,12 +19,10 @@ This project develops an explicit analytical and machine learning framework to m
 
 ---
 
-## 🖼️ Visual Highlights
+## 🎥 Spatiotemporal Ice Dynamics (Animation Preview)
 
-<!-- Wklej tutaj swoje zrzuty ekranu na GitHubie (Cmd+V w edytorze README) -->
 <p align="center">
-  <img src="./animacja_najlepszy_model-2.jpg" alt="Polar Ice Extent Model" width="48%" />
-  <img src="./moje_wykresy_modelu.png" alt="Antarctic Coastline Extraction" width="48%" />
+  <img src="./animation.gif" alt="Antarctic Sea Ice Animation" width="70%" />
 </p>
 
 ---
@@ -74,11 +72,11 @@ To capture non-linear interactions between geographic longitude and seasonal cyc
 
 ## 📂 Repository Structure
 
-* 📄 **[`Antarctic_Ice_Edge_Modeling_Presentation.pdf`](./Antarctic_Ice_Edge_Modeling_Presentation.pdf)** — Full project presentation slide deck with methodology, time-series plots, and validation metrics.
+* 📄 **[`raport-modelowanie_krawedzi_lodu_antarktycznego.pdf`](./raport-modelowanie_krawedzi_lodu_antarktycznego.pdf)** — Full project presentation slide deck with methodology, time-series plots, and validation metrics.
 * 🧭 **[`01_linia_brzegowa_polar.py`](./01_linia_brzegowa_polar.py)** — Extracts minimum ice extent per meridian and renders the Antarctic coastline in polar coordinates.
-* 📈 **[`02_model_3_harmoniczny.py`](./02_model_3_harmoniczny.py)** — Vectorized 3-harmonic OLS solver across 360 sectors; exports mathematical parameters (`Offset`, `Trend`, $A_{1..3}$, $C_{1..3}$, $R^2$, `RMSE`, `MAE`) to CSV.
-* 📓 **[`gotowy_model_lodu.ipynb`](./gotowy_model_lodu.ipynb)** — Complete Jupyter Notebook including multi-sector time-series comparisons (`0°E`, `30°E`, `60°E`, `90°E`) and polar animation generation.
-* 📊 **[`daily_ice_edge.csv`](./daily_ice_edge.csv)** — Input dataset containing daily satellite latitude measurements across 360° longitudes.
+* 📈 **[`02_model_3_harmoniczny.py`](./02_model_3_harmoniczny.py)** — Vectorized 3-harmonic OLS solver across 360 sectors; exports mathematical parameters to CSV[cite: 118].
+* 🎬 **[`animation.gif`](./animation.gif)** — Dynamic spatiotemporal animation comparing raw satellite data against the 3-harmonic model[cite: 118].
+* 📊 **[`daily_ice_edge.csv`](./daily_ice_edge.csv)** — Input dataset containing daily satellite latitude measurements across 360° longitudes[cite: 118].
 
 ---
 
