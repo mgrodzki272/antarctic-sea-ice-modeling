@@ -2,7 +2,7 @@
 
 > Spatiotemporal mathematical modeling and machine learning forecasting of the Antarctic sea ice edge across **360° longitudinal sectors** (1970–1981 daily satellite observations) using **3-Harmonic Fourier Regression (OLS)** and **Random Forest**.
 
-[![Presentation PDF](https://img.shields.io/badge/Presentation-Full_Slide_Deck_(PDF)-red?style=for-the-badge&logo=adobeacrobatreader)](./raport-modelowanie_krawedzi_lodu_antarktycznego.pdf)
+[![Presentation PDF](https://img.shields.io/badge/Presentation-Full_Slide_Deck_(PDF)-red?style=for-the-badge&logo=adobeacrobatreader)](./raport-modelowanie_kraweedzi_lodu_antarktycznego.pdf)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-OLS_%26_Random_Forest-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-Vectorized_Math-013243?style=for-the-badge&logo=numpy&logoColor=white)
